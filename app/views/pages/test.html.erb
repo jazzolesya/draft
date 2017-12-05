@@ -1,0 +1,70 @@
+<label><input type="checkbox" id="icecream" onchange="choose()"></input> Would you like some icecream?</label>
+
+<p>Icecream with:</p>
+<input type="radio" name="radbtn" value="1"> Chocolate</input>
+<input type="radio" name="radbtn" value="21"> Chestnuts</input>
+<input type="radio" name="radbtn" value="321"> Cherries</input>
+<button onclick="icecreamList()">Your choice</button>
+
+<br>
+<br>
+
+
+<div>
+	<select name="" id="mySelect" onchange="beverages()">
+		<option>Tea</option>
+		<option>Coffee</option>
+		<option>Capucino</option>
+		<option>Late</option>
+	</select>
+</div>
+
+<br>
+<br>
+
+<div>
+	<input type='range' min='0' max='100' step='2' oninput='ranges()' id='myRange'></input>
+</div>
+<input id='one'></input>
+<div id='two'></div>
+
+<div class='row'>
+	<p>Choose border radius for your element</p>
+	<div class='block'>
+		<p>Top left: 
+			<input type='range' min='0' max='100' value='0' oninput='bordrang()' id='rtl'></input>
+			<input type='text' id='ttl' value='0'></input>
+		</p>
+		<p>Top right:
+			<input type='range' min='0' max='100' value='0' oninput='bordrang()' id='rtr'></input>
+			<input type='text' id='ttr' value='0'></input>
+		</p>
+		<p>Bottom left:
+			<input type='range' min='0' max='100' value='0' oninput='bordrang()' id='rbl'></input>
+			<input type='text' id='tbl' value='0'></input>
+		</p>
+		<p>Bottom right:
+			<input type='range' min='0' max='100' value='0' oninput='bordrang()' id='rbr'></input>
+			<input type='text' id='tbr' value='0'></input>
+		</p>
+
+		<div id='block'></div>
+	</div>
+
+	<div class='block1'>
+		<p>Top left: 
+			<input type='number' id='tl' value='0' oninput='borderinp()'></input>
+		</p>
+		<p>Top right:
+			<input type='number' id='tr' value='0' oninput='borderinp()'></input>
+		</p>
+		<p>Bottom left:
+			<input type='number' id='bl' value='0' oninput='borderinp()'></input>
+		</p>
+		<p>Bottom right:
+			<input type='number' id='br' value='0' oninput='borderinp()'></input>
+		</p>
+
+		<div id='block2'></div>
+	</div>
+</div>
